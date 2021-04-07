@@ -1,7 +1,7 @@
 local function get(paste)
     write( "Connecting to github.com... " )
     local response = http.get(
-        "https://raw.githubusercontent.com/hamolicious/Computercraft-Programs/master/"..textutils.urlEncode( paste )..".lua"
+        "https://raw.githubusercontent.com/hamolicious/Computercraft-Programs/master/programs/"..textutils.urlEncode( paste )..".lua"
     )
 
     if response then
