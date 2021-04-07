@@ -1,4 +1,5 @@
 function refuel()
+	local saveSelecedSlot = turtle.select()
 	for i = 1, 16 do -- loop through the slots
 		turtle.select(i) -- change to the slot
 		if turtle.refuel(0) then -- if it's valid fuel
@@ -9,3 +10,4 @@ function refuel()
 	end
 end
 
+refuel()
