@@ -15,5 +15,3 @@ function refuel()
 
 	turtle.select(1) -- default to slot 1
 end
-
-refuel()
